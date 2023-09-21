@@ -1,5 +1,5 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\HP\\git\\NewDemo\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\HP\\git\\NewDemo\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\HP\\eclipse-workspace\\.git;C\:\\Users\\HP\\git\\NewDemo\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\HP\\git\\NewDemo\\.git;
 RepositoryGroups.uuids=
 RepositorySearchDialogSearchPath=C\:\\Users\\HP\\git
 eclipse.preferences.version=1
