@@ -1,0 +1,28 @@
+package accessmodifiers;
+
+class AccessModifier{
+	
+	public String str1="I am public access Variable";
+	private String str2="I am private access variable";
+	protected String str3="I am protected access variable";
+	String str4="I am default access variable";
+	
+	public String getStr2() {
+		return str2;
+	}
+}
+
+public class AccessModifiersDemo {
+
+	
+	
+	public static void main(String[] args) {
+		
+		AccessModifier obj=new AccessModifier();
+		System.out.println(obj.str1);
+		//private member we cannot access in out side class
+		System.out.println(obj.str2);
+		
+	}
+
+}

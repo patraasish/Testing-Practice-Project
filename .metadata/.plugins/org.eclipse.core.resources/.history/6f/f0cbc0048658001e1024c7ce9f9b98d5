@@ -1,0 +1,18 @@
+package objectorientedconcept;
+
+class Demo{
+	String str="i am in demo class";
+	Demo(){
+		System.out.println("Constructor");
+	}
+}
+public class OopsDemo {
+
+	public static void main(String[] args) {
+	
+		Demo demo=new Demo();
+		System.out.println(demo.str);
+
+	}
+
+}
