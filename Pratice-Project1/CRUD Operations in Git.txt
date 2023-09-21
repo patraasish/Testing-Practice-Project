@@ -1,0 +1,21 @@
+CRUD Operations in Git
+------------------------------------------
+
+1.2.1 Reverting the previous commits
+-----------------------------------------------------
+     1.To get all commit id use git log command
+     2.Then copy the commit hash which you want to revert
+     3.Then execute git revert <commit hash> command
+
+1.2.2 Ignoring specific files from the .git directory
+-------------------------------------------------------------------
+    1.Create .gitignore file and add extension of ignoring file using “nano .gitignore” command.
+    2.Then add it in git directory using git add command
+    3.Then commit it using command git commit -m “commit message” 
+
+
+1.2.3 Pulling the commits and collaborating between the local and remote repositories
+--------------------------------------------------------------------------------------------------------------------
+   1.First  add remote repository into local repository git remote add origin <remote repository url>.
+   2.Then execute the git pull origin command to pull 
+   3.Then execute git merge origin/master

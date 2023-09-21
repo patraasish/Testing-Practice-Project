@@ -1,0 +1,32 @@
+Set Up and Create a Git Repository
+----------------------------------------------------
+
+1.1.1 Downloading Git from the official site for your operating system
+--------------------------------------------------------------------------------------------
+   1. Open Chrome or Edge browser
+   2. Then search “git download”
+   3. Then click on https://git-scm.com/downloads
+   4. Then click on windows
+   5. Then click on 64-bit Git for Windows Setup.
+   6. Your download will be start
+
+
+1.1.2 Configuring Git in your system
+-------------------------------------------------
+   1. Go  to download folder
+   2. Click on git.exe file
+   3. Then click on install 
+
+
+1.1.3 Generating files and initializing the .git directory
+-------------------------------------------------------------------------
+   1. Create a Folder or Working Directory using “mkdir <Folder name>”
+   2. Go to that folder using “cd <folder name>”
+   3. Create files like: Myprogram1.java Myprogram1.java file1.txt file2.txt using touch command 
+   4. Then initialize git directory using “git init” command
+
+
+1.1.4 Executing the basic commands
+------------------------------------------------------
+   1. To add files in git staging area use command “git add <filename>”
+   2. Then commit to repository use command git commit -m “add commit message”
