@@ -1,0 +1,9 @@
+package com.mypratice;
+
+
+abstract class shape {
+	public void draw();
+}
+public class AbstractClassExample {
+
+}

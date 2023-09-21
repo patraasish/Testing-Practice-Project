@@ -1,0 +1,20 @@
+package com.mypratice;
+
+interface Test2{
+	void method();
+}
+
+public class InterfaceExample implements Test2 {
+
+	public void method() {
+		System.out.println("interface");
+	}
+	
+	public static void main(String[] args) {
+		
+		InterfaceExample obj= new InterfaceExample();
+		obj.method();
+
+	}
+
+}
