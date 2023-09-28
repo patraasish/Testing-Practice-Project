@@ -1,0 +1,18 @@
+package datatypes;
+
+//Write a program in Java to perform implicit and explicit type casting
+public class TypeCastingDemo {
+
+	public static void main(String[] args) {
+		
+		//implicit type casting
+		int num1=19;
+		float num2=num1;
+		double num3=num2;
+		
+		System.out.println("Integer value: "+num1);
+		System.out.println("Float value: "+num2);
+		System.out.println("Double value: "+num3);
+	}
+
+}
