@@ -1,0 +1,21 @@
+package accessmodifiers;
+
+class AccessModifier{
+	
+	public String str1="I am public access Variable";
+	private String str2="I am private access variable";
+	protected String str3="I am protected access variable";
+	String str4="I am default access variable";
+}
+
+public class AccessModifiersDemo {
+
+	
+	
+	public static void main(String[] args) {
+		
+		System.out.println(str1);
+		
+	}
+
+}
