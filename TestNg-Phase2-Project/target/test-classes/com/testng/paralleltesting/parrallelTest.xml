@@ -1,0 +1,14 @@
+<suite name="testsuite" verbose="1" parallel="method" thread-count="2">
+<test name="testcycle1">
+<classes>
+<class name="com.testng.paralleltesting.ParallelTestDemo">
+<methods>
+ 	<include name="wikiPage"></include> 
+    <include name="wikiPage2"></include>
+    <include name="ninjaPage"></include>
+    <include name="ninjaPage2"></include>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

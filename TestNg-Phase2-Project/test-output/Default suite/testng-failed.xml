@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.assertions.HardAssertions">
+      <class name="com.testng.datadriventesting.WikiCreateAccount">
         <methods>
-          <include name="getTitle"/>
-          <include name="openBrowser"/>
+          <include name="startbrowser"/>
+          <include name="CreateAccount"/>
         </methods>
-      </class> <!-- com.testng.assertions.HardAssertions -->
+      </class> <!-- com.testng.datadriventesting.WikiCreateAccount -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

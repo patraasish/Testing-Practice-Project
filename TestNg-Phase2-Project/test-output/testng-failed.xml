@@ -1,24 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Test1]" verbose="2">
-  <test thread-count="5" name="Testcycle1(failed)" verbose="2">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.annotations.BeforeAfterClassAnnotation">
+      <class name="com.testng.datadriventesting.WikiCreateAccount">
         <methods>
-          <include name="logout"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="startbrowser"/>
+          <include name="CreateAccount"/>
         </methods>
-      </class> <!-- com.testng.annotations.BeforeAfterClassAnnotation -->
-      <class name="com.testng.annotations.BeforeAfterMethodAnnotationDemo">
-        <methods>
-          <include name="logout"/>
-          <include name="getTitle"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
-          <include name="login"/>
-        </methods>
-      </class> <!-- com.testng.annotations.BeforeAfterMethodAnnotationDemo -->
+      </class> <!-- com.testng.datadriventesting.WikiCreateAccount -->
     </classes>
-  </test> <!-- Testcycle1(failed) -->
-</suite> <!-- Failed suite [Test1] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
