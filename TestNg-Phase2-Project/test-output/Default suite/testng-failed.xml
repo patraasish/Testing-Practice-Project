@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testng.datadriventesting.WikiCreateAccount">
+      <class name="com.testng.listener.ListenerDemo">
         <methods>
-          <include name="startbrowser"/>
-          <include name="CreateAccount"/>
+          <include name="Test2"/>
         </methods>
-      </class> <!-- com.testng.datadriventesting.WikiCreateAccount -->
+      </class> <!-- com.testng.listener.ListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
