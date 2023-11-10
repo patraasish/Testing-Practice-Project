@@ -1,0 +1,13 @@
+restassuredScripts\Script003PostMethod.class
+restassuredScripts\Script007HamcrestValidateMethods.class
+restassuredScripts\Script009PayPalOauth2.class
+restassuredScripts\Script008GITHUBBearerToken.class
+restassuredScripts\Script0010SSLAuthentication.class
+restassuredScripts\Script006APIKeyDemo.class
+steps\TestRunner.class
+restassuredScripts\Script005PayloadXML.class
+restassuredScripts\Script001SteupCheck.class
+restassuredScripts\Script002GetMethod.class
+restassuredScripts\Script004PostMethodJson.class
+restassuredScripts\LogginginRestAssured.class
+steps\Endproject.class
